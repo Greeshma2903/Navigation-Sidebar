@@ -1,0 +1,64 @@
+<!-- Improve at:
+    on clicking Home, close Navbar
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sidebar 1</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <nav id="navbar">
+        <i class="fas fa-times close-nav"></i>
+        <ul class="links-container">
+            <li>
+                <a href="#home">Home</a>
+            </li>
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#">Products</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+
+        <ul class="connect">
+            <li>
+                <a href="https://www.github.com"><i class="fab fa-github" aria-label="github-icon"></i></a>
+            </li>
+            <li>
+                <a href="https://www.twitter.com"><i class="fab fa-twitter" aria-label="github-icon"></i></a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/m"><i class="fab fa-instagram" aria-label="github-icon"></i></a>
+            </li>
+        </ul>
+    </nav>
+    <i class="fas fa-bars nav-toggle"></i>
+
+    <div id="home">
+        <h1><em>Hey there! <br> Welcome to our store</em></h1>
+    </div>
+
+    <div id="about">
+        <h2>About us</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero esse cumque facilis, cum adipisci corporis vitae amet quaerat atque maiores perspiciatis hic nobis ut unde voluptatem quam necessitatibus recusandae praesentium? Voluptatum minima odit distinctio voluptatem delectus accusamus, quidem sint doloremque!	</p>
+    </div>
+
+    <div id="contact">
+        <button>
+            Contact Us
+        </button>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
